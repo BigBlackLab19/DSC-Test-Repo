@@ -64,7 +64,11 @@ int main()
 		ctr++;
 	}
 
-	printf("Answer", vctr);
+	printf("Answer:", vctr);
+    printf("\n");
+
+    printf("Thank You for listening!");
+    
 
 return 0;
 }
