@@ -6,6 +6,32 @@ int main()
     printf("Hello DSC!");
     printf("This is your Intro to Git!");
 
+//question 1
+    int num1, num2, num3, max;
+
+	printf("Input: \n");
+	printf("A: ");
+	scanf("%d", &num1);
+	printf("B: ");
+	scanf("%d", &num2);
+	printf("C: ");
+	scanf("%d", &num3);
+
+	max = num1;
+
+	if (num2>max)
+	{
+		num2=max;
+	}
+	if (num3>max)
+	{
+		num3=max;
+	}
+
+	printf("Answer: %d\n", max);
+
+// question 2
+
     char str[SIZE];
 	int vctr = 0;
 	int ctr = 0;
@@ -39,7 +65,7 @@ int main()
 	}
 
 	printf("Answer", vctr);
-	
+
 return 0;
 }
 
