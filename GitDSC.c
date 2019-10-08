@@ -3,7 +3,8 @@
 
 int main()
 {
-
+    printf("Hello DSC!");
+    printf("This is your Intro to Git!");
 return 0;
 }
 
