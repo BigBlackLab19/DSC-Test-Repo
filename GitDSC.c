@@ -64,7 +64,21 @@ int main()
 		ctr++;
 	}
 
-	printf("Answer", vctr);
+	printf("Answer:", vctr);
+    printf("\n");
+
+    printf("Thank You for listening!\n");
+    printf("Any Questions?\n");
+
+    int next;
+    printf("Next?")
+    scanf("%i", &next);
+
+    if (next == 1)
+    {
+        printf("Time to Proceed to HTML & CSS!");
+    }
+    
 
 return 0;
 }
