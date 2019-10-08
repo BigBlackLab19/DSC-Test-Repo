@@ -99,8 +99,17 @@ int main()
         printf("Let's Git It\n");
     }
 
-    printf("Proceed to this link: https://learngitbranching.js.org/");
-    
+    printf("Proceed to this link: https://learngitbranching.js.org/\n");
+
+    int try;
+    printf("Can You Make Your Own Branch");
+    scanf("%i", &try);
+
+    if (try == 1)
+    {
+        printf("Okay! So make a branch named 'Workshop', make a commit, and push it\n");
+    }
+
 return 0;
 }
 
