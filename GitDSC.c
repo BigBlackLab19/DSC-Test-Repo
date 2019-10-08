@@ -3,8 +3,28 @@
 
 int main()
 {
-    printf("Hello DSC!");
-    printf("This is your Intro to Git!");
+    printf("Hello DSC!\n");
+    printf("This is your Intro to Git!\n");
+
+    printf("What is Git?\n");
+    printf("\n");
+    printf("Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n");
+
+    int proceed;
+    scanf("%i", &proceed);
+
+    if (proceed == 1)
+    {
+        printf("Why use Git?\n");
+    }
+    
+    int q;
+    scanf("%i", &q);
+
+    if (q == 1)
+    {
+        printf("Test your Knowledge");  
+    }
 
 //question 1
     int num1, num2, num3, max;
@@ -71,15 +91,34 @@ int main()
     printf("Any Questions?\n");
 
     int next;
-    printf("Next?")
+    printf("Next?");
     scanf("%i", &next);
 
     if (next == 1)
     {
-        printf("Time to Proceed to HTML & CSS!");
+        printf("Let's Git It\n");
+    }
+
+    printf("Proceed to this link: https://learngitbranching.js.org/\n");
+
+    int try;
+    printf("Can You Make Your Own Branch");
+    scanf("%i", &try);
+
+    if (try == 1)
+    {
+        printf("Okay! So make a branch named 'Workshop', make a commit, and push it\n");
+    }
+
+    int Justin;
+
+    scanf("%i", &Justin);
+
+    if (Justin == 1)
+    {
+        printf("Time For HTML and CSS!\n");
     }
     
-
 return 0;
 }
 
