@@ -16,15 +16,18 @@ int main()
 
     if (proceed == 1)
     {
+        printf("\n");
         printf("Why use Git?\n");
         printf("\n");
     }
     
     int q;
+    printf("\n");
     scanf("%i", &q);
 
     if (q == 1)
     {
+        printf("\n");
         printf("Test your Knowledge\n");  
         printf("\n");
     }
@@ -52,6 +55,7 @@ int main()
 	}
 
 	printf("Answer: %d\n", max);
+    printf("\n");
 
 // question 2
 
@@ -60,7 +64,7 @@ int main()
 	int ctr = 0;
 
 	printf("Input: ");
-	scanf("%[^\n]s", str);
+	scanf("%s", str);
 
 	while (str[ctr] != '\0')
 	{
@@ -87,7 +91,7 @@ int main()
 		ctr++;
 	}
 
-	printf("Answer:", vctr);
+	printf("Answer: %i", vctr);
     printf("\n");
 
     printf("Thank You for listening!\n");
