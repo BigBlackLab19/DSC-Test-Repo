@@ -23,7 +23,7 @@ int main()
 
     if (q == 1)
     {
-        printf("Test your Knowledge");  
+        printf("Test your Knowledge\n");  
     }
 
 //question 1
@@ -118,7 +118,7 @@ int main()
     {
         printf("Time For HTML and CSS!\n");
     }
-    
+
 return 0;
 }
 
