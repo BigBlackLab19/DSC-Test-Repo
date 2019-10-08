@@ -110,6 +110,15 @@ int main()
         printf("Okay! So make a branch named 'Workshop', make a commit, and push it\n");
     }
 
+    int Justin;
+
+    scanf("%i", &Justin);
+
+    if (Justin == 1)
+    {
+        printf("Time For HTML and CSS!\n");
+    }
+    
 return 0;
 }
 
