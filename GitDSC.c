@@ -9,6 +9,7 @@ int main()
     printf("What is Git?\n");
     printf("\n");
     printf("Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n");
+    printf("\n");
 
     int proceed;
     scanf("%i", &proceed);
@@ -16,6 +17,7 @@ int main()
     if (proceed == 1)
     {
         printf("Why use Git?\n");
+        printf("\n");
     }
     
     int q;
@@ -24,6 +26,7 @@ int main()
     if (q == 1)
     {
         printf("Test your Knowledge\n");  
+        printf("\n");
     }
 
 //question 1
@@ -41,11 +44,11 @@ int main()
 
 	if (num2>max)
 	{
-		num2=max;
+		max = num2;
 	}
 	if (num3>max)
 	{
-		num3=max;
+		max = num3;
 	}
 
 	printf("Answer: %d\n", max);
