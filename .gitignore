@@ -1,3 +1,6 @@
+#Exec Files
+*.exe
+
 # Prerequisites
 *.d
 
